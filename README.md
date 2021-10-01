@@ -7,6 +7,7 @@
  
  Script EIW_visualizer.py plots logged data as contour map using Plotly interactive visualization library. 
 
-<img src="/images/mapsample.png" width="600"/>
+<img src="/images/mapsample_airtemp.png" width="600"/>
+<img src="/images/mapsample_wind.png" width="600"/>
 
 More info about weather open data service: https://maps.eismoinfo.lt/portal/apps/sites/#/npp/pages/weather
