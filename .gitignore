@@ -1,0 +1,6 @@
+EIW/build/
+EIW/dist/
+EIW/__pycache__/
+*.spec
+*.exe
+dist/eismonifo-weather-scraper.exe
