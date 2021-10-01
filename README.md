@@ -5,7 +5,8 @@
 
 <img src="/images/datasample.PNG" width="600"/>
  
- Script EIW_visualizer.py plots logged data as contour map using Plotly interactive visualization library. 
+Script EIW_visualizer.py plots logged data as contour map using Plotly interactive visualization library. 
+Live sample of air temperature interactictive plot: https://vepink.github.io/eismoinfo-weather/
 
 <img src="/images/mapsample_airtemp.png" width="600"/>
 <img src="/images/mapsample_wind.png" width="600"/>

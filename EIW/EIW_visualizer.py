@@ -3,7 +3,7 @@ import pandas as pd
 
 #SETUP
 input_filename = 'EIW_20211001'
-attribute_to_plot = 'wind_spd_avg_ms'  # <-- choose what field values will be plotted as surface. See suggestions commented below.
+attribute_to_plot = 'air_temp_C'  # <-- choose what field values will be plotted as surface. See suggestions commented below.
 
 # air_temp_C wind_spd_avg_ms prcp_amount_mm road_temp_C visibility_m
 # dew_pnt_C freezing_pnt_C wind_spd_max_ms road_grip_koef
