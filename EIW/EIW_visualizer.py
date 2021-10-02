@@ -91,5 +91,5 @@ fig.update_layout(
 fig.update_layout(yaxis_visible=True, yaxis_showticklabels=False)
 fig.update_layout(xaxis_visible=True, xaxis_showticklabels=False)
 
-#fig.write_html("./index.html")
+fig.write_html("./index.html")
 fig.show()
