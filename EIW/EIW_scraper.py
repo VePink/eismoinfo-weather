@@ -114,6 +114,11 @@ di_prcp_type={
     }
 new_df["prcp_type"].replace(di_prcp_type, inplace=True)
 
+print(len(new_df))
+new_df = new_df[new_df['timestamp']>= str(datetime.datetime.now().strftime("%Y-%m-%d")) +" "+ '00:00']
+print("**************************")
+print(len(new_df))
+
 print('---------- DATAFRAME SAVE AS CSV -----------')
 import os.path
 if os.path.isfile(dest_dir+filename+'.csv'):
@@ -122,6 +127,7 @@ if os.path.isfile(dest_dir+filename+'.csv'):
     combined_df.to_csv(dest_dir+filename+'.csv', index=False)
 else:
     new_df.to_csv(dest_dir+filename+'.csv', index=False)
+
 
 
 # Below are notes for making EXE package with pyinstaller from PY code.
