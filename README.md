@@ -4,6 +4,8 @@
  Finaly data is saved as CSV for later analysis.
 
 <img src="/images/thumbnail.png" width="600"/>
+
+Data sample as image:
 <img src="/images/datasample.PNG" width="600"/>
 
 More info about weather open data service: https://maps.eismoinfo.lt/portal/apps/sites/#/npp/pages/weather
