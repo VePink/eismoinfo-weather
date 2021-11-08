@@ -3,7 +3,7 @@
  Later data is structured as Pandas dataframe, redundant attributes are removed. Other attributes are saved as coded values. 
  Finaly data is saved as CSV for later analysis.
 
-<img src="/images/thumbnail.png" width="300"/>
+<img src="/images/thumbnail.webp" width="300"/>
 
 Data sample as image:
 
