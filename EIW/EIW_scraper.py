@@ -110,7 +110,10 @@ di_prcp_type={
     'Lietus, stiprus': 7,
     'Kruša': 8,
     'Lietus': 9,
-    'Sniegas, silpnas': 10
+    'Sniegas, silpnas': 10,
+    'Lietus su sniegu': 11,
+    'Sniegas, vidutinis': 12,
+    'Sniegas, stiprus': 13
     }
 new_df["prcp_type"].replace(di_prcp_type, inplace=True)
 
